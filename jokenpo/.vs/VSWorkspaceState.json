@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\include"
+    "\\include",
+    "\\src"
   ],
-  "SelectedNode": "\\include\\sorteio.h",
+  "SelectedNode": "\\desafiojokenpo.c",
   "PreviewInSolutionExplorer": false
 }

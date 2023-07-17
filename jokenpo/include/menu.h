@@ -96,3 +96,113 @@ int menuInicial(){
     
  return 0;
 }
+
+int menuJokenpoClassico() {
+
+    int selecao = 0;
+
+    while (1)
+    { 
+        printf("\t========== JOKENPO CLASSICO ==========");
+
+        printf("\n\n");
+
+        printf("\tOpçoes: \n");
+
+        printf("\t1. Para pedra\n");
+        printf("\t2. Para papel\n");
+        printf("\t3. Para tesoura\n");
+        printf("\tSelecione:");
+        fflush(stdin);
+        scanf("%d", &selecao);
+
+        if (selecao < 1 || selecao > 3)
+        {
+            printf("\t >> OPÇÃO INVALIDA, VERIFIQUE E TENTE NOVAMENTE << ");
+            printf("\n\n");
+
+        }
+        else
+        {
+            switch (selecao)
+            {
+            case 1:
+                return 1;
+                break;
+            case 2:
+                return 2;
+                break;
+            case 3:
+                return 3;
+                break;
+            default:
+
+                printf("\t >> ALGO DEU ERRADO REINICIE O JOGO E TENTE NOVAMENTE <<");
+                break;
+            }
+        }
+
+    }
+
+   
+    return 0;
+}
+
+int menuJokenpoBigBang()
+{
+    int selecao = 0;
+
+    while (1)
+    {
+        printf("\t========== JOKENPO THE BIG BANG THEORY ==========");
+
+        printf("\n\n");
+
+        printf("\tOpçoes: \n");
+
+        printf("\t1. Para pedra\n");
+        printf("\t2. Para papel\n");
+        printf("\t3. Para tesoura\n");
+        printf("\t4. Para spock\n");
+        printf("\t5. Para lagarto\n");
+        printf("\tSelecione:");
+        fflush(stdin);
+        scanf("%d", &selecao);
+
+        if (selecao < 1 || selecao > 5)
+        {
+            printf("\t >> OPÇÃO INVALIDA, VERIFIQUE E TENTE NOVAMENTE << ");
+            printf("\n\n");
+
+        }
+        else
+        {
+            switch (selecao)
+            {
+            case 1:
+                return 1;
+                break;
+            case 2:
+                return 2;
+                break;
+            case 3:
+                return 3;
+                break;
+            case 4:
+                return 4;
+                break;
+            case 5:
+                return 5;
+                break;
+            default:
+                printf("\t >> ALGO DEU ERRADO REINICIE O JOGO E TENTE NOVAMENTE <<");
+                break;
+            }
+        }
+
+    }
+
+
+    return 0;
+
+}
