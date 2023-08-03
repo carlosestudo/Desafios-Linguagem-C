@@ -95,4 +95,4 @@ int main(void){
 
 /*Código inicial, tem bastante espaço para melhorias e adição de novas funcionalidades, criei o jogo com baseno 
 no meu conhecimento e com algumas pesquisas na internete que me ajudaram a entender como funciona a geração de 
-numeros aleatoris dentro da linguagem C.*/
+numeros aleatorios dentro da linguagem C.*/

@@ -2,7 +2,7 @@
 # include <time.h>
 
 // sorteia um numero aleatorio para a maquina.
-int sorteio(){
+int sorteioClassico(){
 
     int numeroAleatorio;
 

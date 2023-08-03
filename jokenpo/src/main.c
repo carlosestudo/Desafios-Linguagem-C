@@ -8,14 +8,16 @@
 #include "../include/logicaJogo.h"
 
 
+
 int main(void) {
     
     
     setlocale(LC_ALL, "portuguese");
 
     int iniciaJogo = 0;
+   // int selecaoJogador = 0; caso precise
 
-    //apresentação
+    //apresentaï¿½ï¿½o
 
     printf("\n");
     printf("******************************************\n");
@@ -35,7 +37,7 @@ int main(void) {
     
     iniciaJogo = menuInicial();
 
-    printf("%d teste variavel retorno", iniciaJogo);
+    // printf("%d teste variavel retorno", iniciaJogo);
 
     switch (iniciaJogo)
     {
@@ -45,8 +47,9 @@ int main(void) {
             break;
 
         case 1: 
-
+            
             jokenpoClassico();
+           
             break;
 
         case 2:
