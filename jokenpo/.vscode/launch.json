@@ -33,9 +33,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "f:/Arquivos/Documentos/Repositorios/Desafios-Linguagem-C/jokenpo",
-      "program": "f:/Arquivos/Documentos/Repositorios/Desafios-Linguagem-C/jokenpo/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "/home/maquina/Desafios-Linguagem-C/jokenpo",
+      "program": "/home/maquina/Desafios-Linguagem-C/jokenpo/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
