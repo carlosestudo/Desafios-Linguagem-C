@@ -7,15 +7,6 @@ int jokenpoClassico()
 
 	selecaoMaquina = sorteioClassico();
 	selecaoJogador = menuJokenpoClassico();
-
-
-
-
-	
-
-
-
-	
 	return 0;
 }
 

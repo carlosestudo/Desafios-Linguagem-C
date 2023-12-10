@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <locale.h>
 
+#define MENU_HEADER 100
+
 int menuInicial(){
    
     setlocale(LC_ALL, "portuguese");

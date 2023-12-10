@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include <windows.h>
+//#include <windows.h>
 #include <time.h>
-#include <conio.h>
+//#include <conio.h>
 #include "../include/menu.h"
 #include "../include/logicaJogo.h"
 
