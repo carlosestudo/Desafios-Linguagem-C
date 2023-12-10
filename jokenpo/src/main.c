@@ -1,72 +1,35 @@
 #define MENU_HEADER 100
 
+
+#define STONE 1
+#define PAPER 2
+#define SCISSORS 3
+#define SPOCK 4
+#define LIZARD 5
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include <stdbool.h>
 //#include <windows.h>
 //#include <conio.h>
 #include <time.h>
-#include "../include/struct_menus/StructMenu.h"
-#include "../include/auxiliary_function/Menu.h"
-#include "../include/menu.h"
-#include "../include/logicaJogo.h"
+#include "../include/list_menus/StructMenu.h"
+#include "../include/auxiliary_function/DisplayMenu.h"
+#include "../include/auxiliary_function/RandomNumber.h"
+#include "../include/logic_game/LogicClassic.h"
+#include "../include/menu_logic/MenuClassic.h"
 
 
-int main(void) {
-    
+
+int main() {
     
     setlocale(LC_ALL, "portuguese");
-
-    int iniciaJogo = 0;
-   // int selecaoJogador = 0; caso precise
-
-    //apresenta��o
-
-    displayMenu( menuBigBang, sizeof( menuBigBang) / sizeof(MenuList));
-
-    printf("\n");
-    printf("******************************************\n");
-    printf("*               BEM-VINDO                *\n");
-    printf("*                  AO                    *\n");
-    printf("*             SUPER  JOKENPO             *\n");
-    printf("******************************************\n");
-    printf("\n");
- 
-    printf("   >> Pressione Enter para continuar <<  \n");
+    //randomNumber(3);
    
-    printf("\n");
-
-    getchar();
-
-    // inicia o jogo
-    
-    iniciaJogo = menuInicial();
-
-    // printf("%d teste variavel retorno", iniciaJogo);
-
-    switch (iniciaJogo)
-    {
-        case 0:
-
-            printf("\t >> ALGO DEU ERRADO REINICIE O JOGO E TENTE NOVAMENTE << ");
-            break;
-
-        case 1: 
-            
-            jokenpoClassico();
-           
-            break;
-
-        case 2:
-
-            jokenpoBigBang();
-            break;
-
-
-        default:
-            break;
+    while(1){
+        limparBuffer();
+        menuJokenpoClassic();
     }
-
-    getchar();
     return 0;
 }
