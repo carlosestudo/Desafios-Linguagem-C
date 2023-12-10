@@ -1,12 +1,15 @@
+#define MENU_HEADER 100
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 //#include <windows.h>
-#include <time.h>
 //#include <conio.h>
+#include <time.h>
+#include "../include/struct_menus/StructMenu.h"
+#include "../include/auxiliary_function/Menu.h"
 #include "../include/menu.h"
 #include "../include/logicaJogo.h"
-
 
 
 int main(void) {
@@ -18,6 +21,8 @@ int main(void) {
    // int selecaoJogador = 0; caso precise
 
     //apresenta��o
+
+    displayMenu( menuBigBang, sizeof( menuBigBang) / sizeof(MenuList));
 
     printf("\n");
     printf("******************************************\n");
