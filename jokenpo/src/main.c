@@ -17,7 +17,7 @@
 #include "../include/list_menus/StructMenu.h"
 #include "../include/auxiliary_function/DisplayMenu.h"
 #include "../include/auxiliary_function/RandomNumber.h"
-#include "../include/logic_game/LogicClassic.h"
+#include "../include/logic_game/LogicGame.h"
 #include "../include/menu_logic/MenuClassic.h"
 
 
@@ -29,7 +29,7 @@ int main() {
    
     while(1){
         limparBuffer();
-        menuJokenpoClassic();
+        menuJokenpo(1);
     }
     return 0;
 }
