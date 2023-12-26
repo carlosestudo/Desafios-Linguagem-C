@@ -1,13 +1,14 @@
+int randomNumber(int select) {
+    static int anterior = 0;  // static mantém o valor entre chamadas
 
-// sorteia um numero aleatorio para a maquina.
-int randomNumber(int select){
+    int number = rand() % select + 1;
 
-    int number;
+    // Evita que o número sorteado seja igual ao anterior
+    while (number == anterior) {
+        number = rand() % select + 1;
+    }
 
-    srand(time(NULL));
-    number= rand() %select +1;
-
-    //printf("%d", number);
+    anterior = number;
 
     return number;
 }

@@ -11,7 +11,7 @@ MenuList menuStart[] = {
 };
 
 MenuList menuClassic[] = {
-    {MENU_HEADER, "MENU JOKENPO CLASSICO "},
+    {MENU_HEADER, " JOKENPO CLASSICO "},
     {1, "Para Pedra"},
     {2, "Para Papel"},
     {3, "Para Tesoura"},

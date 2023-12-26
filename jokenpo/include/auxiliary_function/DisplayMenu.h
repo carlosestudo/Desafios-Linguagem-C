@@ -23,7 +23,3 @@ void displayMenu(MenuList menuStart[], int numOptions) {
     printf("\nSELECIONE: ");
 }
 
-void limparBuffer() {
-    int c;
-    while ((c = getchar()) != '\n' && c != EOF);
-}
